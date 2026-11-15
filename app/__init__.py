@@ -10,3 +10,6 @@ def create_app(test_config=None):
     app.register_blueprint(proxy_bp)
 
     return app
+
+
+app = create_app()
